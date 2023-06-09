@@ -10,14 +10,15 @@
 }
 
 .logo1 {
-    width:61%;
+    width:62%;
+    margin-left: 1%;
 }
 .menu {
     display: flex;
     justify-content: space-between;
     width: 35%;
     align-items: center;
-    margin-right: 1.5%;
+    margin-right: 2%;
 }
 
 .menu > a {
@@ -31,7 +32,7 @@
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    width: 80px;
+    width: 85px;
     height: 40px;
     border: 1.5px solid #155EEF;
     border-radius: 8px ;
@@ -167,10 +168,15 @@
     font-size: 24px;
     line-height: 36px;
     font-weight: 500px;
+    margin-right: 0.5%;
 }
 
 .sec1,.sec2 {
     margin-bottom: 5%;
+}
+
+.logo2 {
+    margin-left: 1%;
 }
 /* font-family: 'Halant', serif;
 font-family: 'Manrope', sans-serif; */
