@@ -161,6 +161,7 @@
     justify-content: space-between;
     width:10%;
     display: flex;
+    margin: 0;
 }
 
 .copyright {
@@ -168,7 +169,12 @@
     font-size: 24px;
     line-height: 36px;
     font-weight: 500px;
-    margin-right: 0.5%;
+    margin-right:0.5% 
+    
+}
+
+.copyright >p {
+    margin: 0 0;
 }
 
 .sec1,.sec2 {
