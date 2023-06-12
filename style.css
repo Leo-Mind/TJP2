@@ -185,16 +185,6 @@
     margin-left: 1%;
 }
 
-.sec3 {
-    margin: 2%;
-    gap: 8%;
-    border: 2px solid #155EEF;
-    border-radius: 8px;
-    padding: 4% 2%;
-    position:relative;
-    
-}
-
 .projects{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -203,8 +193,7 @@
     padding: 2% 2%;
     width: 52.5%;
     position:relative;
-    z-index: 3;
-    
+    z-index: 2; 
 }
 
 .projects h2 {
@@ -214,13 +203,20 @@
     margin: 0;
 }
 
+.sec3 {
+    margin: 2%;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    padding: 4% 2%;
+    position:relative;
+}
+
 .img3{
     width: 45.5%;
-    height:75% ;
     left: 52.5%;
     top:20%;
     position:absolute;
-    z-index: 2;
+    z-index:1;
 }
 
 .projects p {
@@ -234,8 +230,6 @@
 .img3 > img {
     width: 100%;
     height:100%;
-   
-   
 }
 /* font-family: 'Halant', serif;
 font-family: 'Manrope', sans-serif; */
