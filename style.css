@@ -185,15 +185,19 @@
     margin-left: 1%;
 }
 
+
+
 .projects{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 24px;
     background-color: #F9FBFF;
     padding: 2% 2%;
-    width: 52.5%;
-    position:relative;
-    z-index: 2; 
+    width: 50%;
+    z-index: 2;
+    left: 2%;
+    top:5%;
+    position:absolute;
 }
 
 .projects h2 {
@@ -209,14 +213,15 @@
     border-radius: 8px;
     padding: 4% 2%;
     position:relative;
+    display: flex;
+    justify-content: end;
 }
 
 .img3{
-    width: 45.5%;
-    left: 52.5%;
-    top:20%;
-    position:absolute;
+    width: 50%;
+    position:relative;
     z-index:1;
+    padding-top: 3s%;
 }
 
 .projects p {
