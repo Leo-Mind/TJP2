@@ -211,7 +211,7 @@
     margin: 2%;
     border: 2px solid #155EEF;
     border-radius: 8px;
-    padding: 4% 2%;
+    padding:2% 2%;
     position:relative;
     display: flex;
     justify-content: end;
@@ -221,7 +221,7 @@
     width: 50%;
     position:relative;
     z-index:1;
-    padding-top: 3s%;
+    padding-top: 5%;
 }
 
 .projects p {
