@@ -28,6 +28,10 @@
     text-decoration: none;
 }
 
+#hamburg {
+    display: none;
+}
+
 .menu > a > button {
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
@@ -185,9 +189,7 @@
     margin-left: 1%;
 }
 
-
-
-.projects{
+/* .projects{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -237,4 +239,134 @@
     height:100%;
 }
 /* font-family: 'Halant', serif;
-font-family: 'Manrope', sans-serif; */
+font-family: 'Manrope', sans-serif; */ 
+
+@media screen and (max-width:750px) {
+    .logo1 {
+        width:50%;
+        margin-left: 1%;
+    }
+
+    .logo1 img{
+        width: 100%;
+    }
+    
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        padding: 4% 3%;
+    }
+    .welcome{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-top: 5%;
+    }
+
+    .welcome > a > button {
+    width: 100%;
+    }
+
+    #welcometext  {
+        font-size: 16px;
+        line-height: 24pxpx;
+    }
+    
+    
+    .welcome > h1 {
+        font-size: 32px;  
+        line-height: 38.4px;     
+    }
+    
+    #jobdesc {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .img1{
+        width: 100%;
+    }
+
+    .sec2 {
+        flex-direction: column-reverse;
+        padding: 4% 3%;
+    }
+    
+    .img2 {
+        width: 100%;
+    }
+    
+    .aboutme {
+        width: 100%;
+        
+        
+    
+    }
+    
+    .aboutme >h2 {
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+    
+    }
+    
+    .aboutme >p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align:justify
+    }
+    .menu > a {
+        display: none;
+    }
+
+    #hamburg{
+        display: inline;
+    }
+
+    #hamburg img{
+        width: 80%;
+    }
+
+    .menu{
+        justify-content: end;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+        border: 2px solid #155EEF;
+        border-radius: 8px;
+        padding: 2% 0.5%;
+        align-items: center;
+        padding-right: 2%;
+        flex-wrap: wrap;
+    }
+    
+    .sociallinks {
+        justify-content: space-between;
+        width:30%;
+        padding-right: 3%;
+    }
+    
+    .copyright {
+        font-size: 15.96px;
+        line-height: 23.94px;
+        text-align: center;
+        width: 100%; 
+        padding-top: 2%;
+    }
+        
+        .logo2 img{
+            margin-left: 1%;
+            width: 100%;
+        }
+
+        .logo2{
+            width:50%;
+        }
+
+        .sociallinks img{
+            width: 70%;
+        }
+    }
