@@ -181,25 +181,21 @@
     margin: 0 0;
 }
 
-.sec1,.sec2 {
-    margin-bottom: 5%;
-}
-
 .logo2 {
     margin-left: 1%;
 }
 
-/* .projects{
+.projects{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 24px;
     background-color: #F9FBFF;
     padding: 2% 2%;
     width: 50%;
-    z-index: 2;
-    left: 2%;
-    top:5%;
-    position:absolute;
+    position:relative;
+    z-index: 2; 
+    margin-bottom: 8%;
+    
 }
 
 .projects h2 {
@@ -216,14 +212,20 @@
     padding:2% 2%;
     position:relative;
     display: flex;
-    justify-content: end;
+}
+
+.sec1,.sec2,.sec3 {
+    margin-bottom: 5%;
 }
 
 .img3{
     width: 50%;
-    position:relative;
     z-index:1;
     padding-top: 5%;
+    position:absolute;
+    z-index: 1;
+    right: 2%;
+    top:13%;
 }
 
 .projects p {
@@ -239,7 +241,7 @@
     height:100%;
 }
 /* font-family: 'Halant', serif;
-font-family: 'Manrope', sans-serif; */ 
+font-family: 'Manrope', sans-serif; */
 
 @media screen and (max-width:750px) {
     .logo1 {
@@ -369,4 +371,55 @@ font-family: 'Manrope', sans-serif; */
         .sociallinks img{
             width: 70%;
         }
+    
+
+    .projects{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        padding: 2%;
+        width: 100%;
+        position:relative;
+        z-index: 2; 
+        margin-bottom: 2%;
+         
+        
     }
+    
+    .projects h2 {
+        font-family: 'Halant', serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 5%;
+        text-align: center;
+    }
+    
+    .sec3 {
+        border: 2px solid #155EEF;
+        border-radius: 8px;
+        position:relative;
+        display: flex;
+        background-color: #F9FBFF;
+    }
+    
+    .img3{
+       display: none;
+    }
+    
+}
+
+@media screen and (min-width:750px) and (max-width:1400px) {
+
+    .projects{
+        
+        margin-bottom: 1%;
+        
+    }
+    .img3{
+       
+        right: 2%;
+        top:20%;
+    }
+    
+}
