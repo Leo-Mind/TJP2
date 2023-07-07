@@ -14,3 +14,4 @@ close.addEventListener('click', ()=> {
     close.classList.add('hide')
     nav.classList.toggle('visible')
 })
+
