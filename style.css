@@ -7,7 +7,8 @@ header {
     margin: 2%;
     padding: 0.5%;
     border: 2px solid #155EEF;
-    border-radius: 8px; 
+    border-radius: 8px;
+    background: white; 
 }
 
 .logo_header {
@@ -15,7 +16,7 @@ header {
     margin-left: 1%;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     width: 35%;
@@ -23,7 +24,7 @@ nav {
     margin-right: 2%;
 }
 
-nav > a {
+.nav > a {
     font-family: 'Halant', serif;
     font-size: 24px;
     color: black;
@@ -34,7 +35,11 @@ nav > a {
     display: none;
 }
 
-nav > a > button {
+.nav2,.nav2.visible{
+    display: none;
+}
+
+.nav > a > button {
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -257,7 +262,7 @@ font-family: 'Manrope', sans-serif; */
 
     /* M Header Section */
 
-    nav > a {
+    .nav > a {
         display: none;
     }
 
@@ -269,8 +274,48 @@ font-family: 'Manrope', sans-serif; */
         width: 80%;
     }
 
-    nav{
+    .nav{
         justify-content: end;
+    }
+
+
+    /* Hamburger Menu */
+
+    .nav2{
+        display: none;
+    }
+
+    .nav2.visible{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #F9FBFF;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding-top: 15%;
+        text-align:center;        
+    }
+
+    .nav2.visible hr{
+        width: 60%;
+        height: 1px;
+        background:#030E27;
+    }
+
+    .nav2.visible p{
+        margin-bottom: 3%;
+        margin-top: 10%;
+        font-family: 'Halant', serif;
+        font-size: 20px;
+    }
+
+    header{
+        position: relative;
+        z-index: 2;
+      
     }
 
 
