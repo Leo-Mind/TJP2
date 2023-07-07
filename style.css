@@ -35,6 +35,10 @@ header {
     display: none;
 }
 
+#close-menu{
+    display: none;
+}
+
 .nav2,.nav2.visible{
     display: none;
 }
